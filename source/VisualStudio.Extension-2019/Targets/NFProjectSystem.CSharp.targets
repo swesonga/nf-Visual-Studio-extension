@@ -29,7 +29,7 @@
     <ProjectCapability Remove="LaunchProfiles" />
     <ProjectCapability Include="NanoCSharpProject" />
 
-    <ProjectCapability Include="ReferencesFolder"/>
+    <ProjectCapability Include="ReferencesFolder;LanguageService"/>
 
     <!-- Remove these as they are not important or interfere with nanoFramework projects -->
     <ProjectCapability Remove="COMReferences" />
